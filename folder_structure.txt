@@ -1,0 +1,52 @@
+Restaurant POS & Business Management SaaS
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── app.js
+│   └── images/
+├── ajax/
+│   ├── auth_actions.php
+│   ├── pos_actions.php
+│   ├── kiosk_actions.php
+│   ├── kitchen_actions.php
+│   ├── finance_actions.php
+│   ├── inventory_actions.php
+│   ├── customer_actions.php
+│   ├── employee_actions.php
+│   ├── settings_actions.php
+│   └── report_actions.php
+├── config/
+│   └── database.php
+├── includes/
+│   ├── functions.php
+│   ├── header.php
+│   ├── sidebar.php
+│   └── footer.php
+├── views/
+│   ├── login.php
+│   ├── dashboard.php
+│   ├── pos.php
+│   ├── kitchen.php
+│   ├── kiosk_login.php
+│   ├── kiosk_pos.php
+│   ├── khata.php
+│   ├── customers.php
+│   ├── products.php
+│   ├── categories.php
+│   ├── inventory.php
+│   ├── ingredients.php
+│   ├── wastage.php
+│   ├── seating.php
+│   ├── reservations.php
+│   ├── waitlist.php
+│   ├── employees.php
+│   ├── salary.php
+│   ├── timeclock.php
+│   ├── finance.php
+│   ├── reports.php
+│   ├── feedback.php
+│   ├── notifications.php
+│   └── settings.php
+├── index.php
+└── database.sql
