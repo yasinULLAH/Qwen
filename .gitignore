@@ -4,12 +4,13 @@
 __pycache__/
 
 # Dependencies
+node_modules/
 vendor/
-composer.lock
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
 
 # Environment
 .env
@@ -23,4 +24,31 @@ composer.lock
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Backup files
+*~
+*.bak
+*.backup
+
+# Distribution / packaging
+dist/
+build/
+target/
+*.tar*
+*.zip
+*.gz
+*.bz2
+*.xz
+*.7z
+
+# Testing
+.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# PHP specific
+*.php~
+*.php.bak
 ```
